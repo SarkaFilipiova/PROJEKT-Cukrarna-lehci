@@ -33,3 +33,143 @@ body {
 	margin: 0;
 }
 
+.logo {
+	max-width: 170px;
+}
+
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.hero-text {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+}
+
+a {
+	padding: 10px 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: #f195B2;
+}
+
+.hero {
+	background-image: url("images/cupcake.jpg");
+	color: white;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.obsah-sekce {
+	text-align: left;
+}
+
+.hero h1, .hero p {
+	padding-right: 40%;
+}
+
+.dva-sloupce {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+section {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.tlacitko {
+	background-color: #F195b2;
+	border-radius: 30px;
+	padding: 15px 40px;
+}
+
+.tlacitko:hover {
+	background-color: #D2567D;
+}
+
+.margin-nefunguje {
+	margin-bottom: 35px;
+}
+
+.foto {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.sekce-seda {
+	background-color: #F0F0F0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.nabidka {
+	display: flex;
+	max-width: 1100px;
+	align-content: center;
+}
+
+.produkt img {
+	width: 247px;
+	border-radius: 5px 5px 0 0;
+}
+
+.produkt {
+	border: 1px solid silver;
+	background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(170 170 170) 4px 4px 6px;
+	display: flex;
+	flex-direction: column;
+	max-width: 250px;
+	flex: 0 0 calc((100% -40px) / 4);
+	margin-right: 10px;
+}
+
+.produkt-obsah {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	background-color: #303339;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
